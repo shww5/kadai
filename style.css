@@ -16,7 +16,7 @@ main{
 }
 
 .step-box{
-  float: left;
+  float: none;
   width: 300px;
   margin-right: 30px;
   padding: 10px;
@@ -30,21 +30,21 @@ main{
 
 .step-img1{
   height: 150px;
-  background-image: url(img/flow01.png);
+  background-image: url(flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .step-img2{
   height: 150px;
-  background-image: url(img/flow02.png);
+  background-image: url(flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .step-img3{
   height: 150px;
-  background-image: url(img/flow03.png);
+  background-image: url(flow03.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -61,8 +61,7 @@ main{
 .title{
   margin: 15px 0 5px;
 }
-@media screen and (max-width:425px) {
-
+@media screen and (max-width:468px){
 main{
  width: 90%;
  margin-top:50px;
